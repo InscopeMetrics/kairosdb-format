@@ -16,7 +16,7 @@ package io.inscopemetrics.kairosdb.proto.v2;
 option java_package = "io.inscopemetrics.kairosdb.proto.v2";
 
 message DataPoint {
-    map<uint64, uint32> histogram = 1;
+    map<uint64, uint64> histogram = 1;
     double min = 2;
     double max = 3;
     double sum = 4;
