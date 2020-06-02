@@ -29,7 +29,7 @@
   <name>KairosDb Extensions Format</name>
   <description>Format definition for KairosDb extensions.</description>
   <url>https://github.com/InscopeMetrics/kairosdb-format</url>
-  <version>0.1.5-SNAPSHOT</version>
+  <version>0.1.5</version>
 
   <licenses>
     <license>
@@ -63,7 +63,7 @@
     <connection>scm:git:git@github.com:InscopeMetrics/kairosdb-format.git</connection>
     <developerConnection>scm:git:git@github.com:InscopeMetrics/kairosdb-format.git</developerConnection>
     <url>https://github.com/InscopeMetrics/kairosdb-format</url>
-    <tag>HEAD</tag>
+    <tag>format-0.1.5</tag>
   </scm>
 
   <properties>
