@@ -80,13 +80,6 @@
   </properties>
   <build>
     <plugins>
-      <!-- Customize Inherited Plugins -->
-      <plugin>
-        <groupId>com.rimerosolutions.maven.plugins</groupId>
-        <artifactId>wrapper-maven-plugin</artifactId>
-        <inherited>false</inherited>
-      </plugin>
-
       <!-- Project Specific Plugins -->
       <plugin>
         <groupId>com.github.os72</groupId>

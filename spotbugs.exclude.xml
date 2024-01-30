@@ -76,6 +76,8 @@
       <Bug pattern="SE_BAD_FIELD"/>
       <Bug pattern="UC_USELESS_CONDITION"/>
       <Bug pattern="UCF_USELESS_CONTROL_FLOW"/>
+      <Bug pattern="EI_EXPOSE_REP"/>
+      <Bug pattern="MS_EXPOSE_REP"/>
     </Or>
   </Match>
 
