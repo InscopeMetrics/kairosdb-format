@@ -80,5 +80,11 @@
       <Bug pattern="MS_EXPOSE_REP"/>
     </Or>
   </Match>
-
+  <!-- Ignore generated sources -->
+  <Match>
+    <Or>
+      <Source name="~.*generated.*" />
+      <Class name="~.*io\.inscopemetrics\.kairosdb\.proto\..*" />
+    </Or>
+  </Match>
 </FindBugsFilter>
