@@ -1,0 +1,11 @@
+[package]
+name = "kairosdb-format"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/InscopeMetrics/kairosdb-format"
+
+[dependencies]
+prost = "0"
+
+[build-dependencies]
+prost-build = "0"
